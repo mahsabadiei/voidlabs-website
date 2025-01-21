@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import { AnimatePresence, motion } from "framer-motion";
-import Header from "@/components/ui/header/header";
+import { AnimatePresence, motion } from "motion/react";
+import Header from "@/components/header/header";
 import Home from "../home/home";
 import About from "../about/about";
 import Faq from "../faq/faq";
