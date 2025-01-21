@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "motion/react";
-import { wordAnimation } from "@/utils/animations";
+import { wordAnimation } from "@/lib/utils/animations";
 import { bahiana } from "@/styles/fonts";
-import { TWITTER, DISCORD, INSTAGRAM } from "@/utils/constants";
+import { TWITTER, DISCORD, INSTAGRAM } from "@/lib/utils/constants";
 import contactBg from "../../../public/contact-bg.webp";
 import twitterIcon from "../../../public/twitter-icon.svg";
 import discordIcon from "../../../public/discord-icon.svg";

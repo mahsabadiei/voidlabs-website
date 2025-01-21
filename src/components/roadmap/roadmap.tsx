@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { motion } from "motion/react";
-import { wordAnimation } from "@/utils/animations";
+import { wordAnimation } from "@/lib/utils/animations";
 import { bahiana } from "@/styles/fonts";
 import roadmapBg from "../../../public/roadmap-bg.webp";
 import rock1Bg from "../../../public/rock-1-bg.webp";

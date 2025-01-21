@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "motion/react";
-import { wordAnimation } from "@/utils/animations";
+import { wordAnimation } from "@/lib/utils/animations";
 import { bahiana } from "@/styles/fonts";
-import { WHITEPAPER } from "@/utils/constants";
+import { WHITEPAPER } from "@/lib/utils/constants";
 import aboutBg from "../../../public/about-bg.svg";
 
 export default function About() {
